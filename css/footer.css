@@ -1,0 +1,222 @@
+.clear0 {
+    font-size: 0px;
+    line-height: 0px;
+    width: 0px;
+    height: 0px;
+    clear: both;
+    display: block;
+}
+footer .social-bar {
+    height: 130px;
+    line-height: 130px;
+    background-color: #464c4f;
+}
+
+    footer .social-bar .social-left {
+        float: left;
+        color: #9ed03c;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    footer .social-bar .social-right {
+        float: right;
+    }
+
+footer .social-right a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 45px;
+    font-size: 12px;
+    color: #c6cfd4;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 200ms ease;
+}
+
+    footer .social-right a:hover {
+        color: #9ed03c;
+    }
+
+footer a svg {
+    display: inline-block;
+    vertical-align: middle;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+footer a:hover .footer-svg {
+    fill: #9ed03c;
+}
+
+footer nav .main {
+    background-color: #3f4548;
+    padding: 60px 0;
+}
+
+footer nav .footer-col {
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 0 5% 0 0;
+}
+
+footer nav a {
+    display: block;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 8px 0;
+    color: #c6cfd4;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 200ms ease;
+}
+
+    footer nav a:hover {
+        color: #10abfa;
+    }
+
+footer nav .footer-col .parent {
+    font-size: 14px;
+    color: #10abfa;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+    footer nav .footer-col .parent.m-top {
+        margin-top: 20px;
+    }
+
+footer nav .bottom {
+  
+}
+
+    footer nav .bottom .copy {
+        float: left;
+        font-size: 12px;
+        color: #c6cfd4;
+        width: 60%;
+    }
+
+    footer nav .bottom .legal a:hover {
+        color: #fff;
+    }
+
+    footer nav .bottom .legal {
+        float: left;
+        width: 40%;
+    }
+
+        footer nav .bottom .legal .col1 {
+            float: left;
+            padding-right: 130px;
+        }
+
+        footer nav .bottom .legal .col2 {
+            float: left;
+        }
+
+footer a.logo img {
+    width: 254px;
+}
+
+
+/* tablet vertical */
+@media only screen and (max-width: 990px) {
+    footer .social-bar .social-left {
+        display: none;
+    }
+
+    footer .social-bar .social-right {
+        float: none;
+    }
+
+    footer .social-right a {
+        margin: 0 30px 0 0;
+    }
+
+    footer nav .bottom {
+        display: table;
+        padding-top: 50px;
+    }
+
+        footer nav .bottom .copy {
+            float: none;
+            display: table-footer-group;
+        }
+
+        footer nav .bottom .legal {
+            float: none;
+            display: table-header-group;
+        }
+
+            footer nav .bottom .legal .col1 {
+                padding-bottom: 50px;
+            }
+}
+
+@media only screen and (max-width: 767px) {
+    footer nav .main {
+        padding: 40px 0;
+    }
+
+    footer .social-bar {
+        height: auto;
+        line-height: normal;
+        padding: 38px 0;
+    }
+
+        footer .social-bar .social-left {
+            display: none;
+        }
+
+        footer .social-bar .social-right {
+            float: none;
+        }
+
+            footer .social-bar .social-right .mobile-hr {
+                border: 1px solid #6b7072;
+                display: inline-block;
+                width: 100%;
+                margin: 30px 0;
+            }
+
+    footer .footer-col {
+        display: none;
+    }
+
+    footer nav .bottom {
+        display: table;
+        padding-top: 0;
+    }
+
+        footer nav .bottom .copy {
+            float: none;
+            display: table-footer-group;
+        }
+
+        footer nav .bottom .legal {
+            float: none;
+            display: table-header-group;
+        }
+
+            footer nav .bottom .legal .col1 {
+                float: none;
+                padding-right: 0;
+                padding-bottom: 0;
+            }
+
+            footer nav .bottom .legal .col2 {
+                float: none;
+                padding-bottom: 50px;
+            }
+}
